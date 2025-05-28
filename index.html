@@ -3,34 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backlinks Page</title>
+    <title>Learning Resources Blog</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-    <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full text-center">
-        <h1 class="text-3xl font-bold text-gray-800 mb-6">Explore Our Resources</h1>
-        <p class="text-gray-600 mb-4">Discover valuable content and opportunities through our trusted partners.</p>
-        <div class="space-y-4">
-            <a 
-                href="https://www.coursesforjob.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                class="block bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
-            >
-                Visit CoursesForJob
-            </a>
-            <a 
-                href="https://notesmedia.in" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                class="block bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-700 transition duration-300"
-            >
-                Visit NotesMedia
-            </a>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <header class="bg-blue-800 text-white py-6">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl font-bold">Learning Hub</h1>
+            <p class="mt-2 text-lg">Your go-to source for education and resources</p>
         </div>
-        <p class="text-sm text-gray-500 mt-6">
-            Connect with these platforms for courses, resources, and more!
-        </p>
-    </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12 max-w-4xl">
+        <article class="bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Top Resources for Career and Education</h2>
+            <p class="text-gray-600 mb-6">
+                Whether you're looking to advance your career or deepen your knowledge, finding the right resources is key. Below, we’ve highlighted two fantastic platforms that offer valuable courses and content to help you succeed.
+            </p>
+            <div class="mb-6">
+                <h3 class="text-xl font-medium text-gray-700 mb-2">CoursesForJob</h3>
+                <p class="text-gray-600 mb-4">
+                    Discover a wide range of professional courses designed to boost your skills and help you land your dream job. From tech to business, 
+                    <a href="https://www.coursesforjob.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-medium">CoursesForJob</a> 
+                    has something for everyone.
+                </p>
+                <a 
+                    href="https://www.coursesforjob.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="inline-block bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300"
+                >
+                    Explore CoursesForJob
+                </a>
+            </div>
+            <div class="mb-6">
+                <h3 class="text-xl font-medium text-gray-700 mb-2">NotesMedia</h3>
+                <p class="text-gray-600 mb-4">
+                    Access high-quality educational content and notes to support your learning journey. 
+                    <a href="https://notesmedia.in" target="_blank" rel="noopener noreferrer" class="text-green-600 hover:underline font-medium">NotesMedia</a> 
+                    offers resources tailored to students and professionals alike.
+                </p>
+                <a 
+                    href="https://notesmedia.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="inline-block bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition duration-300"
+                >
+                    Visit NotesMedia
+                </a>
+            </div>
+            <p class="text-gray-600">
+                Start exploring these platforms today to take your learning and career to the next level!
+            </p>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Learning Hub. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
